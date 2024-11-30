@@ -2,12 +2,13 @@
 
 import { Models } from 'node-appwrite';
 import React from 'react';
-import Thumbnail from './Thumbnail';
-import FormattedDateTime from './FormattedDateTime';
+
 import { convertFileSize, formatDateTime } from '@/lib/utils';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import Image from 'next/image';
+import Thumbnail from '@/components/Thumbnail';
+import FormattedDateTime from '@/components/FormattedDateTime';
 
 const ImageThumbnail = ({ file }: { file: Models.Document }) => (
   <div className="file-details-thumbnail">

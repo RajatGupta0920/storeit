@@ -16,3 +16,5 @@ export const FormattedDateTime = ({
     </p>
   );
 };
+
+export default FormattedDateTime;
